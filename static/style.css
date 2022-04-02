@@ -13,10 +13,6 @@ img {
 }
 
 .about {
-    /*
-    width: 736px;
-    height: 1033px;
-    */
     width: 20%;
     height: 20%;
     border-radius: 0px;
@@ -25,8 +21,8 @@ img {
 }
 
 p {
-        line-height: 20px;
-        text-indent: 25px;
+        line-height: 20px;/*межстрочный интервал*/
+        text-indent: 25px;/*красная строка*/
 }
 
 a {
