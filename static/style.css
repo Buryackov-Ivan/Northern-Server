@@ -6,6 +6,24 @@ body {
 
 }
 
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px
+}
+
+.about {
+    /*
+    width: 736px;
+    height: 1033px;
+    */
+    width: 20%;
+    height: 20%;
+    border-radius: 0px;
+    float: left;
+    vertical-align: top;
+}
+
 p {
         line-height: 20px;
 }
