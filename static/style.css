@@ -2,8 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
     color: #434343;
     background: #1095ce;
-    margin: 50px 25px;
-
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 70%; /* 100 or 70*/
 }
 
 img {
@@ -13,16 +15,18 @@ img {
 }
 
 .about {
-    width: 20%;
-    height: 20%;
+   /* width: 20%;
+    height: 20%;*/
+    width: 169px;
+    height: 225px;
     border-radius: 0px;
     float: left;
     vertical-align: top;
 }
 
 p {
-        line-height: 20px;/*межстрочный интервал*/
-        text-indent: 25px;/*красная строка*/
+    line-height: 20px;/*межстрочный интервал*/
+    text-indent: 25px;/*красная строка*/
 }
 
 a {
@@ -42,15 +46,32 @@ a:hover {
     color: #df3f33;
 }
 
-header, footer, div.page {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
+header {
+    margin: 0px;
     padding: 20px 30px;
+    width: 100%;
+    background: #daeef3;
+    box-sizing: border-box;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+div.page {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 20px 30px;
+    background: #f1fbfe;
+    box-sizing: border-box;
+    font-family: 'Rubik Glitch', cursive;
 }
 
 footer {
+    border: 2px solid yellowgreen;
     text-align: center;
+    width: 100%;
+    background: #daeef3;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 header h1 {
@@ -73,6 +94,3 @@ header nav ul li {
     padding: 0;
 }
 
-div.page {
-    background: #f1fbfe;
-}
