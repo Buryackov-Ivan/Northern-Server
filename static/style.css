@@ -44,7 +44,7 @@ nav {
 }
 
 a:hover {
-    color: #fc7643;
+    color: #FF8000;
 }
 
 header {
@@ -63,7 +63,8 @@ div.page {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     /*color: #012c61;*/
-    color: #c20e89;;
+    /* color: #c20e89; */
+    color: #FF009C;
 }
 
 footer {
