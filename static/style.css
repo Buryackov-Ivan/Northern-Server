@@ -48,7 +48,7 @@ a:hover {
 }
 
 header {
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
     padding: 20px 30px;
     width: 100%;
     background: #daeef3;
@@ -68,13 +68,14 @@ div.page {
 }
 
 footer {
-    /*border: 2px solid yellowgreen;*/
+    /* border: 2px solid yellowgreen; */
     text-align: center;
     width: 100%;
     background: #daeef3;
     padding: 20px 30px;
     box-sizing: border-box;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    color: #76ff00;
     font-family: 'Rubik Glitch', cursive;
 }
 
@@ -103,11 +104,45 @@ header, div.page, footer {
     background: #153369;
 }
 
-a, header, footer, header h1 {
+a, header, header h1 {
     color: #27f6fe;
     /*color: #85c6e2;*/
 }
 
-footer {
-    color: #76ff00;
+footer, header, div.page {
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: #B500CB;
+    border-width: 3px;
+    /* border-top-style: solid; */
+    
+    /* border: 1px solid yellowgreen; */
+}
+
+/* Строки для текста в две колонки */
+
+.columns {
+    overflow: hidden;
+    line-height: 20px;
+    text-indent: 25px;
+}
+
+.columns-left {
+    float: left;
+    width: 48%;
+}
+
+.columns-right {
+    margin-left: 52%;
+}
+
+/* Градиентный текст без переливания */
+
+.gradient {
+    background: linear-gradient(#ff0000, #0033ff);
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
